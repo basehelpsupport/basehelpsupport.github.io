@@ -4,6 +4,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}.member-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.team-member:nth-child(1) .member-photo {
+  background-image: url("images/brian.jpg");
+}
+
+.team-member:nth-child(2) .member-photo {
+  background-image: url("images/emilie.jpg");
+}
+
+.team-member:nth-child(3) .member-photo {
+  background-image: url("images/alesia.jpg");
+}
+
+.team-member:nth-child(4) .member-photo {
+  background-image: url("images/paul.jpg");
 }
 
 body {
